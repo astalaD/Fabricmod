@@ -1,12 +1,12 @@
 package en.BioWeapon.Bioweapontut.util;
 
+import net.minecraft.block.Block;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 import static en.BioWeapon.Bioweapontut.BioweaponGC.MOD_ID;
-
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 
 public class ItemsRegistry {
 
@@ -17,4 +17,7 @@ public class ItemsRegistry {
         return Registry.register(Registry.ITEM, new Identifier(MOD_ID, id), item);
     }
 
+    public static Block registerBlock(String id, Block block) {
+        return Registry.register(Registry.BLOCK, new Identifier(MOD_ID, id), block);
+    }
 }
