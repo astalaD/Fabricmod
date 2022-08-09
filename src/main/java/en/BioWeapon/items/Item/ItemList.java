@@ -6,7 +6,7 @@ import en.BioWeapon.items.util.ItemsRegistry;
 
 public class ItemList {
 
-    public static final Item BIOMASS_ITEM = ItemsRegistry.registerItem("ruby",
+    public static final Item BIOMASS_ITEM = ItemsRegistry.registerItem("CUM",
             new Biomass_ball(new FabricItemSettings()));
 
     public static void init() {
