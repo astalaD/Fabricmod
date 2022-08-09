@@ -1,6 +1,6 @@
 package en.BioWeapon.items.util;
 
-import static en.BioWeapon.items.Itemss.MOD_ID;
+import static en.BioWeapon.items.BioweaponGC.MOD_ID;
 
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
