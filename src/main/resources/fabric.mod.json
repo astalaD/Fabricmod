@@ -11,7 +11,7 @@
   ],
   "contact": {
     
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/FabricMC/fabric-BioWeapon"
   },
 
   
@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.example.BioWeapon"
     ]
   },
   "mixins": [
