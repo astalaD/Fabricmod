@@ -7,7 +7,7 @@ public class Biomass_ball extends Item {
 
     public Biomass_ball(Settings settings) {
         super(settings);
-        settings.group(ItemGroup.MATERIALS);
+        settings.group(ItemGroup.MISC);
     }
 
 }
