@@ -3,24 +3,23 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "BioWeapon Mod",
-  "description": "mod that fill's u ",
-
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Tehnaa, PseudoComrade"
+    "Me!"
   ],
   "contact": {
-    
-    "sources": "https://github.com/FabricMC/fabric-BioWeapon"
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  
+  "license": "CC0-1.0",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.BioWeapon"
+      "net.fabricmc.example.ExampleMod"
     ]
   },
   "mixins": [
@@ -28,8 +27,8 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.6",
-    "fabric": "*",
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
     "minecraft": "~1.19",
     "java": ">=17"
   },

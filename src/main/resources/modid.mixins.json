@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "BioWeapon"
+    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
